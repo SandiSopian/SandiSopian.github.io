@@ -4,9 +4,53 @@ body {
   margin: 0;
 }
 
-@media (max-width: 576px) {
-  .textHeader {
-    justify-content: center;
-    text-align: center;
+.card {
+  border: 2px solid;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+  /* Header */
+  #header {
+    display: flex;
   }
+
+  .introPP {
+    max-width: 600px;
+    flex: 1;
+    order: 2;
+  }
+
+  .imgPP {
+    max-width: 600px;
+    flex: 1;
+    order: 1;
+  }
+
+  #header .row > * {
+    text-align: center !important;
+  }
+  /* Akhir Header */
+
+  /* About */
+  #about {
+    display: flex;
+  }
+
+  .about1 {
+    flex: 1;
+    order: 2;
+  }
+
+  .about2 {
+    flex: 1;
+    order: 3;
+  }
+
+  .about3 {
+    flex: 1;
+    order: 1;
+  }
+  /* Akhir About */
 }
