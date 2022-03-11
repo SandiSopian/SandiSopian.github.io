@@ -36,6 +36,7 @@ body {
   /* About */
   #about {
     display: flex;
+    direction: column;
   }
 
   .about1 {
